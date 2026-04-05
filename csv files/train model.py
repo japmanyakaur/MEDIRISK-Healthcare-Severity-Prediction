@@ -149,7 +149,7 @@ artifacts = {
     'classes':      list(le_target.classes_)
 }
 
-output_path = "smart_triage_model.pkl"
+output_path = r"C:\Users\Admin\Desktop\xpecto\smart-triage-api\smart_triage_model.pkl"
 with open(output_path, 'wb') as f:
     pickle.dump(artifacts, f)
 
